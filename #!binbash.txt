@@ -1,0 +1,16 @@
+#!/bin/bash
+yum update -y
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+cd /var/www/html
+
+echo " <h1> this is machine 1 </h1>" > index.html
+
+
+
+
+ns-67.awsdns-08.com.
+ns-1291.awsdns-33.org.
+ns-783.awsdns-33.net.
+ns-1586.awsdns-06.co.uk.
